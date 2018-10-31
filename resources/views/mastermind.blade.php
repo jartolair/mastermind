@@ -29,8 +29,11 @@
 	</form>
 	@endif
 	@if(Session::get('intentos')<= 0)
-	<h1>Ya terminaron tus intentos, imbecil</h1>
+	<h1>Ya terminaron tus intentos</h1>
 	@endif
+
+
+
 	<?php
 		$historial[]=Session('historial');
 
